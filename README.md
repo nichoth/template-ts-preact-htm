@@ -1,4 +1,4 @@
-# template ts browser ![tests](https://github.com/nichoth/template-ts-preact-htm/actions/workflows/nodejs.yml/badge.svg)
+# template ts preact htm ![tests](https://github.com/nichoth/template-ts-preact-htm/actions/workflows/nodejs.yml/badge.svg)
 
 A template for *dependency* modules using `preact`, `htm`, and typescript. Uses `tape-run` for tests in a browser environment. See [template-ts](https://github.com/nichoth/template-ts) for something similar but targeting Node.
 
