@@ -18,3 +18,15 @@ A template for *dependency* modules using `preact`, `htm`, and typescript. Uses 
 * eslint via [standardx](https://www.npmjs.com/package/standardx) -- `npm run lint`
 * tests run in a browser environment via `tape-run` -- see `npm test`. Includes `tap` testing tools -- [tapzero](https://github.com/nichoth/tapzero) and [tap-arc](https://www.npmjs.com/package/tap-arc)
 * CI via github actions
+* Deploy a demo webpage on any push event to the main branch. This will build the `example` directory and deploy it to your `github.io` site.
+
+## demo
+Use [a link like this](https://nichoth.github.io/template-ts-preact-htm/) to see a demo page, built from the `example` directory.
+
+This means you need to configure some things in github to make github pages work. In the gihub UI, you need to go to `settings` > `Pages`, and choose `Github Actions` in the `Build and Deployment` source.
+
+![Screenshot of github UI](image.png)
+
+Also you should go `settings` > `Environments`, and create an environemnt `gh-pages`.
+
+![Screenshot of github UI for environments](image-1.png)
