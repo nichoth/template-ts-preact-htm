@@ -1,3 +1,5 @@
-export function example ():void {
-    console.log('hello')
+import { html } from 'htm/preact'
+
+export function Example () {
+    return html`<div>hello</div>`
 }
