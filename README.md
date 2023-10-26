@@ -1,6 +1,6 @@
-# template ts browser ![tests](https://github.com/nichoth/template-ts-browser/actions/workflows/nodejs.yml/badge.svg)
+# template ts browser ![tests](https://github.com/nichoth/template-ts-preact-htm/actions/workflows/nodejs.yml/badge.svg)
 
-A template for typescript *dependency* modules that run in a browser environment. Uses `tape-run` for tests in a browser. See [template-ts](https://github.com/nichoth/template-ts) for the same thing but targeting Node.
+A template for *dependency* modules using `preact`, `htm`, and typescript. Uses `tape-run` for tests in a browser environment. See [template-ts](https://github.com/nichoth/template-ts) for something similar but targeting Node.
 
 ## use
 1. Use the template button in github. Or clone this then `rm -rf .git && git init`. Then `npm i && npm init`.
@@ -16,5 +16,5 @@ A template for typescript *dependency* modules that run in a browser environment
 * `preversion` npm hook -- lint via `standardx`.
 * `postversion` npm hook -- `git push && git push --tags && npm publish`
 * eslint via [standardx](https://www.npmjs.com/package/standardx) -- `npm run lint`
-* tests run in a browser environment via `tape-run` -- see `npm test`. Includes `tap` testing tools -- [tapzero](https://github.com/socketsupply/tapzero) and [tap-arc](https://www.npmjs.com/package/tap-arc)
+* tests run in a browser environment via `tape-run` -- see `npm test`. Includes `tap` testing tools -- [tapzero](https://github.com/nichoth/tapzero) and [tap-arc](https://www.npmjs.com/package/tap-arc)
 * CI via github actions
