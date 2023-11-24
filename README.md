@@ -20,6 +20,11 @@ A template for *dependency* modules using `preact`, `htm`, and typescript. Uses 
 * CI via github actions
 * Deploy a demo webpage on any push event to the main branch. This will build the `example` directory and deploy it to your `github.io` site.
 
+## changelog
+We automatically create a changelog from the commit messages, at `./CHANGELOG`.  Commit messages should contain the text "BREAKING CHANGE" for breaking changes.
+
+This happens automatically via the [npm version script](./package.json#L15).
+
 ## demo
 Use [a link like this](https://nichoth.github.io/template-ts-preact-htm/) to see a demo page, built from the `example` directory.
 
