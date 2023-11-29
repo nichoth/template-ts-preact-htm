@@ -2,6 +2,9 @@
 
 A template for *dependency* modules using `preact`, `htm`, and typescript. Uses `tape-run` for tests in a browser environment. See [template-ts](https://github.com/nichoth/template-ts) for something similar but targeting Node.
 
+## more templates
+[See the list](https://github.com/nichoth/#templates) for more options.
+
 ## use
 1. Use the template button in github. Or clone this then `rm -rf .git && git init`. Then `npm i && npm init`.
 
