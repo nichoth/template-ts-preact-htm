@@ -13,7 +13,7 @@
     "start": "vite",
     "preversion": "npm run lint",
     "version": "auto-changelog --template keepachangelog --breaking-pattern 'BREAKING CHANGE' && git add CHANGELOG.md",
-    "postversion": "git push && git push --tags && gh-release -y && npm publish",
+    "postversion": "git push && git push --tags && -y && npm publish",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
@@ -28,7 +28,6 @@
     "@typescript-eslint/parser": "^6.12.0",
     "auto-changelog": "^2.4.0",
     "esbuild": "^0.19.5",
-    "gh-release": "^7.0.2",
     "postcss-nesting": "^12.0.1",
     "standardx": "^7.0.0",
     "tap-arc": "^1.2.2",
