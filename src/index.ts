@@ -1,6 +1,5 @@
 import { html } from 'htm/preact'
-import { createDebug } from '@nichoth/debug'
-
+import { createDebug } from '@bicycle-codes/debug'
 const debug = createDebug()
 
 export function Example () {
